@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J6
 U 1 1 5FC428C8
 P 9750 3550
-F 0 "J?" H 9830 3592 50  0000 L CNN
+F 0 "J6" H 9830 3592 50  0000 L CNN
 F 1 "Conn_01x01" H 9830 3501 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 9750 3550 50  0001 C CNN
 F 3 "~" H 9750 3550 50  0001 C CNN
@@ -29,10 +29,10 @@ Text GLabel 9400 3550 0    50   Input ~ 0
 Wire Wire Line
 	9550 3550 9400 3550
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J4
 U 1 1 5FC43693
 P 9750 3400
-F 0 "J?" H 9830 3442 50  0000 L CNN
+F 0 "J4" H 9830 3442 50  0000 L CNN
 F 1 "Conn_01x01" H 9830 3351 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 9750 3400 50  0001 C CNN
 F 3 "~" H 9750 3400 50  0001 C CNN
@@ -44,10 +44,10 @@ DIN
 Wire Wire Line
 	9550 3400 9400 3400
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J2
 U 1 1 5FC43C3D
 P 9750 3250
-F 0 "J?" H 9830 3292 50  0000 L CNN
+F 0 "J2" H 9830 3292 50  0000 L CNN
 F 1 "Conn_01x01" H 9830 3201 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 9750 3250 50  0001 C CNN
 F 3 "~" H 9750 3250 50  0001 C CNN
@@ -59,10 +59,10 @@ GND
 Wire Wire Line
 	9550 3250 9400 3250
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J1
 U 1 1 5FC48F56
 P 2150 3250
-F 0 "J?" H 2230 3292 50  0000 L CNN
+F 0 "J1" H 2230 3292 50  0000 L CNN
 F 1 "Conn_01x01" H 2230 3201 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 2150 3250 50  0001 C CNN
 F 3 "~" H 2150 3250 50  0001 C CNN
@@ -74,10 +74,10 @@ Text GLabel 2500 3250 2    50   Input ~ 0
 Wire Wire Line
 	2350 3250 2500 3250
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J3
 U 1 1 5FC48F5E
 P 2150 3400
-F 0 "J?" H 2230 3442 50  0000 L CNN
+F 0 "J3" H 2230 3442 50  0000 L CNN
 F 1 "Conn_01x01" H 2230 3351 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 2150 3400 50  0001 C CNN
 F 3 "~" H 2150 3400 50  0001 C CNN
@@ -89,10 +89,10 @@ DIN
 Wire Wire Line
 	2350 3400 2500 3400
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J5
 U 1 1 5FC48F66
 P 2150 3550
-F 0 "J?" H 2230 3592 50  0000 L CNN
+F 0 "J5" H 2230 3592 50  0000 L CNN
 F 1 "Conn_01x01" H 2230 3501 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 2150 3550 50  0001 C CNN
 F 3 "~" H 2150 3550 50  0001 C CNN
@@ -146,10 +146,10 @@ Wire Wire Line
 Text GLabel 3050 3550 0    50   Input ~ 0
 GND
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J8
 U 1 1 5FC50D76
 P 6000 5550
-F 0 "J?" H 6080 5592 50  0000 L CNN
+F 0 "J8" H 6080 5592 50  0000 L CNN
 F 1 "Conn_01x01" H 6080 5501 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 6000 5550 50  0001 C CNN
 F 3 "~" H 6000 5550 50  0001 C CNN
@@ -161,10 +161,10 @@ GND
 Wire Wire Line
 	6000 5350 6000 5200
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J7
 U 1 1 5FC51DA3
 P 5850 5550
-F 0 "J?" H 5930 5592 50  0000 L CNN
+F 0 "J7" H 5930 5592 50  0000 L CNN
 F 1 "Conn_01x01" H 5930 5501 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 5850 5550 50  0001 C CNN
 F 3 "~" H 5850 5550 50  0001 C CNN

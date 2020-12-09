@@ -16,143 +16,82 @@ $EndDescr
 $Comp
 L MCU_Microchip_ATtiny:ATtiny13A-SSU U1
 U 1 1 5FBBA9C9
-P 7150 4000
-F 0 "U1" H 6620 4046 50  0000 R CNN
-F 1 "ATtiny13A-SSU" H 6620 3955 50  0000 R CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7150 4000 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc8126.pdf" H 7150 4000 50  0001 C CNN
-	1    7150 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L MCU_Microchip_ATtiny:ATtiny10-TS U2
-U 1 1 5FBC9F99
-P 7150 1800
-F 0 "U2" H 6620 1846 50  0000 R CNN
-F 1 "ATtiny10-TS" H 6620 1755 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 7150 1800 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf" H 7150 1800 50  0001 C CNN
-	1    7150 1800
+P 6100 1600
+F 0 "U1" H 5570 1646 50  0000 R CNN
+F 1 "ATtiny13A-SSU" H 5570 1555 50  0000 R CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6100 1600 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc8126.pdf" H 6100 1600 50  0001 C CNN
+	1    6100 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:AVR-ISP-6 J1
 U 1 1 5FBD0219
-P 5900 2850
-F 0 "J1" H 5571 2946 50  0000 R CNN
-F 1 "AVR-ISP-6" H 5571 2855 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" V 5650 2900 50  0001 C CNN
-F 3 " ~" H 4625 2300 50  0001 C CNN
-	1    5900 2850
+P 6200 3950
+F 0 "J1" H 5871 4046 50  0000 R CNN
+F 1 "AVR-ISP-6" H 5871 3955 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" V 5950 4000 50  0001 C CNN
+F 3 " ~" H 4925 3400 50  0001 C CNN
+	1    6200 3950
 	1    0    0    -1  
 $EndComp
-Text GLabel 7150 1100 1    50   Input ~ 0
+Text GLabel 6100 900  1    50   Input ~ 0
 +5V
-Text GLabel 7150 3300 1    50   Input ~ 0
-+5V
-Text GLabel 7150 2500 3    50   Input ~ 0
-LGND
-Text GLabel 7150 4700 3    50   Input ~ 0
+Text GLabel 6100 2300 3    50   Input ~ 0
 LGND
 Wire Wire Line
-	7150 4600 7150 4700
+	6100 2200 6100 2300
 Wire Wire Line
-	7150 3300 7150 3400
-Wire Wire Line
-	7150 1100 7150 1200
-Wire Wire Line
-	7150 2400 7150 2500
-$Comp
-L Device:R R4
-U 1 1 5FBD8A1A
-P 8000 1800
-F 0 "R4" V 7793 1800 50  0000 C CNN
-F 1 "10kR" V 7884 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 7930 1800 50  0001 C CNN
-F 3 "~" H 8000 1800 50  0001 C CNN
-	1    8000 1800
-	0    -1   -1   0   
-$EndComp
+	6100 900  6100 1000
 $Comp
 L Device:R R1
 U 1 1 5FBD9150
-P 8150 4200
-F 0 "R1" V 7943 4200 50  0000 C CNN
-F 1 "10kR" V 8034 4200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8080 4200 50  0001 C CNN
-F 3 "~" H 8150 4200 50  0001 C CNN
-	1    8150 4200
+P 7100 1800
+F 0 "R1" V 6893 1800 50  0000 C CNN
+F 1 "10kR" V 6984 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7030 1800 50  0001 C CNN
+F 3 "~" H 7100 1800 50  0001 C CNN
+	1    7100 1800
 	0    -1   -1   0   
 $EndComp
-Text GLabel 8250 1800 2    50   Input ~ 0
-+5V
-Text GLabel 8400 4200 2    50   Input ~ 0
+Text GLabel 7350 1800 2    50   Input ~ 0
 +5V
 Wire Wire Line
-	7750 4200 7850 4200
+	6700 1800 6800 1800
 Wire Wire Line
-	8300 4200 8400 4200
-Wire Wire Line
-	7750 1800 7850 1800
-Wire Wire Line
-	8150 1800 8250 1800
-Text GLabel 7850 3900 2    50   Input ~ 0
-SCK
-Text GLabel 7850 3700 2    50   Input ~ 0
-MOSI
-Text GLabel 7850 3800 2    50   Input ~ 0
-MISO
-Text GLabel 7850 1500 2    50   Input ~ 0
-SCK
-Text GLabel 7850 1600 2    50   Input ~ 0
-MOSI
-Text GLabel 7850 1700 2    50   Input ~ 0
-DOUT
-Wire Wire Line
-	7850 1500 7750 1500
-Wire Wire Line
-	7750 1600 7850 1600
-Wire Wire Line
-	7850 1700 7750 1700
-Wire Wire Line
-	7850 3700 7750 3700
-Wire Wire Line
-	7750 3800 7850 3800
-Wire Wire Line
-	7750 3900 7850 3900
-NoConn ~ 7750 4000
-NoConn ~ 7750 4100
-Text GLabel 7850 4300 3    50   Input ~ 0
+	7250 1800 7350 1800
+NoConn ~ 6700 1600
+Text GLabel 6800 1900 3    50   Input ~ 0
 RESET
 Wire Wire Line
-	7850 4300 7850 4200
+	6800 1900 6800 1800
 Wire Wire Line
-	7850 4200 8000 4200
-Connection ~ 7850 4200
-Text GLabel 6400 2950 2    50   Input ~ 0
+	6800 1800 6950 1800
+Connection ~ 6800 1800
+Text GLabel 6700 4050 2    50   Input ~ 0
 RESET
-Text GLabel 6400 2850 2    50   Input ~ 0
+Text GLabel 6700 3950 2    50   Input ~ 0
 SCK
-Text GLabel 6400 2750 2    50   Input ~ 0
+Text GLabel 6700 3850 2    50   Input ~ 0
 MOSI
-Text GLabel 6400 2650 2    50   Input ~ 0
+Text GLabel 6700 3750 2    50   Input ~ 0
 MISO
 Wire Wire Line
-	6300 2950 6400 2950
+	6600 4050 6700 4050
 Wire Wire Line
-	6400 2850 6300 2850
+	6700 3950 6600 3950
 Wire Wire Line
-	6300 2750 6400 2750
+	6600 3850 6700 3850
 Wire Wire Line
-	6400 2650 6300 2650
-Text GLabel 5800 2250 1    50   Input ~ 0
+	6700 3750 6600 3750
+Text GLabel 6100 3350 1    50   Input ~ 0
 +5V
-Text GLabel 5800 3350 3    50   Input ~ 0
+Text GLabel 6100 4450 3    50   Input ~ 0
 LGND
 Wire Wire Line
-	5800 2250 5800 2350
+	6100 3350 6100 3450
 Wire Wire Line
-	5800 3250 5800 3350
+	6100 4350 6100 4450
 $Comp
 L Connector_Generic:Conn_01x01 J3
 U 1 1 5FC217FB
@@ -186,62 +125,62 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x01 J6
 U 1 1 5FC233CB
-P 9450 2450
-F 0 "J6" H 9530 2492 50  0000 L CNN
-F 1 "Conn_01x01" H 9530 2401 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 9450 2450 50  0001 C CNN
-F 3 "~" H 9450 2450 50  0001 C CNN
-	1    9450 2450
+P 9550 2900
+F 0 "J6" H 9630 2942 50  0000 L CNN
+F 1 "Conn_01x01" H 9630 2851 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 9550 2900 50  0001 C CNN
+F 3 "~" H 9550 2900 50  0001 C CNN
+	1    9550 2900
 	1    0    0    -1  
 $EndComp
-Text GLabel 9150 2450 0    50   Input ~ 0
+Text GLabel 9250 2900 0    50   Input ~ 0
 +5V
 Wire Wire Line
-	9150 2450 9250 2450
+	9250 2900 9350 2900
 $Comp
 L Connector_Generic:Conn_01x01 J7
 U 1 1 5FC237F5
-P 9450 2600
-F 0 "J7" H 9530 2642 50  0000 L CNN
-F 1 "Conn_01x01" H 9530 2551 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 9450 2600 50  0001 C CNN
-F 3 "~" H 9450 2600 50  0001 C CNN
-	1    9450 2600
+P 9550 3050
+F 0 "J7" H 9630 3092 50  0000 L CNN
+F 1 "Conn_01x01" H 9630 3001 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 9550 3050 50  0001 C CNN
+F 3 "~" H 9550 3050 50  0001 C CNN
+	1    9550 3050
 	1    0    0    -1  
 $EndComp
-Text GLabel 9150 2600 0    50   Input ~ 0
+Text GLabel 9250 3050 0    50   Input ~ 0
 +5V
 Wire Wire Line
-	9150 2600 9250 2600
+	9250 3050 9350 3050
 $Comp
 L Connector_Generic:Conn_01x01 J8
 U 1 1 5FC24B78
-P 9450 2950
-F 0 "J8" H 9530 2992 50  0000 L CNN
-F 1 "Conn_01x01" H 9530 2901 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 9450 2950 50  0001 C CNN
-F 3 "~" H 9450 2950 50  0001 C CNN
-	1    9450 2950
+P 9550 3400
+F 0 "J8" H 9630 3442 50  0000 L CNN
+F 1 "Conn_01x01" H 9630 3351 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 9550 3400 50  0001 C CNN
+F 3 "~" H 9550 3400 50  0001 C CNN
+	1    9550 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9150 2950 9250 2950
+	9250 3400 9350 3400
 $Comp
 L Connector_Generic:Conn_01x01 J9
 U 1 1 5FC24B80
-P 9450 3100
-F 0 "J9" H 9530 3142 50  0000 L CNN
-F 1 "Conn_01x01" H 9530 3051 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 9450 3100 50  0001 C CNN
-F 3 "~" H 9450 3100 50  0001 C CNN
-	1    9450 3100
+P 9550 3550
+F 0 "J9" H 9630 3592 50  0000 L CNN
+F 1 "Conn_01x01" H 9630 3501 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 9550 3550 50  0001 C CNN
+F 3 "~" H 9550 3550 50  0001 C CNN
+	1    9550 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9150 3100 9250 3100
-Text GLabel 9150 2950 0    50   Input ~ 0
+	9250 3550 9350 3550
+Text GLabel 9250 3400 0    50   Input ~ 0
 LGND
-Text GLabel 9150 3100 0    50   Input ~ 0
+Text GLabel 9250 3550 0    50   Input ~ 0
 LGND
 $Sheet
 S 1100 2400 1900 600 
@@ -288,61 +227,77 @@ Wire Wire Line
 $Comp
 L Device:C C1
 U 1 1 5FC36142
-P 7750 2900
-F 0 "C1" H 7865 2946 50  0000 L CNN
-F 1 "0.1uF" H 7865 2855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7788 2750 50  0001 C CNN
-F 3 "~" H 7750 2900 50  0001 C CNN
-	1    7750 2900
+P 7800 3200
+F 0 "C1" H 7915 3246 50  0000 L CNN
+F 1 "0.1uF" H 7915 3155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7838 3050 50  0001 C CNN
+F 3 "~" H 7800 3200 50  0001 C CNN
+	1    7800 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C2
 U 1 1 5FC3748B
-P 8200 2900
-F 0 "C2" H 8315 2946 50  0000 L CNN
-F 1 "0.1uF" H 8315 2855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8238 2750 50  0001 C CNN
-F 3 "~" H 8200 2900 50  0001 C CNN
-	1    8200 2900
+P 8250 3200
+F 0 "C2" H 8365 3246 50  0000 L CNN
+F 1 "0.1uF" H 8365 3155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8288 3050 50  0001 C CNN
+F 3 "~" H 8250 3200 50  0001 C CNN
+	1    8250 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 7750 2750 1    50   Input ~ 0
+Text GLabel 7800 3050 1    50   Input ~ 0
 +5V
-Text GLabel 8200 2750 1    50   Input ~ 0
+Text GLabel 8250 3050 1    50   Input ~ 0
 +5V
-Text GLabel 8200 3050 3    50   Input ~ 0
+Text GLabel 8250 3350 3    50   Input ~ 0
 LGND
-Text GLabel 7750 3050 3    50   Input ~ 0
+Text GLabel 7800 3350 3    50   Input ~ 0
 LGND
 $Comp
 L Connector_Generic:Conn_01x01 J10
 U 1 1 5FC3F1DC
-P 4550 2800
-F 0 "J10" H 4630 2842 50  0000 L CNN
-F 1 "Conn_01x01" H 4630 2751 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4550 2800 50  0001 C CNN
-F 3 "~" H 4550 2800 50  0001 C CNN
-	1    4550 2800
+P 4450 3050
+F 0 "J10" H 4530 3092 50  0000 L CNN
+F 1 "Conn_01x01" H 4530 3001 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4450 3050 50  0001 C CNN
+F 3 "~" H 4450 3050 50  0001 C CNN
+	1    4450 3050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 2800 4350 2800
+	4150 3050 4250 3050
 $Comp
 L Connector_Generic:Conn_01x01 J11
 U 1 1 5FC3F1E4
-P 4550 2950
-F 0 "J11" H 4630 2992 50  0000 L CNN
-F 1 "Conn_01x01" H 4630 2901 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4550 2950 50  0001 C CNN
-F 3 "~" H 4550 2950 50  0001 C CNN
-	1    4550 2950
+P 4450 3200
+F 0 "J11" H 4530 3242 50  0000 L CNN
+F 1 "Conn_01x01" H 4530 3151 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4450 3200 50  0001 C CNN
+F 3 "~" H 4450 3200 50  0001 C CNN
+	1    4450 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 2950 4350 2950
-Text GLabel 4250 2800 0    50   Input ~ 0
+	4150 3200 4250 3200
+Text GLabel 4150 3050 0    50   Input ~ 0
 DOUT
-Text GLabel 4250 2950 0    50   Input ~ 0
+Text GLabel 4150 3200 0    50   Input ~ 0
 DOUT
+Wire Wire Line
+	6700 1500 6800 1500
+Wire Wire Line
+	6700 1400 6800 1400
+Wire Wire Line
+	6800 1300 6700 1300
+Text GLabel 6800 1400 2    50   Input ~ 0
+MISO
+Text GLabel 6800 1300 2    50   Input ~ 0
+MOSI
+Text GLabel 6800 1500 2    50   Input ~ 0
+SCK
+Text GLabel 6800 1700 2    50   Input ~ 0
+DOUT
+Wire Wire Line
+	6800 1700 6700 1700
 $EndSCHEMATC
