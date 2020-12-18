@@ -16,22 +16,22 @@ $EndDescr
 $Comp
 L Device:Battery BT1
 U 1 1 5FBBBC4B
-P 7800 4150
-F 0 "BT1" H 7908 4196 50  0000 L CNN
-F 1 "Battery" H 7908 4105 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_2466_1xAAA" V 7800 4210 50  0001 C CNN
-F 3 "~" V 7800 4210 50  0001 C CNN
-	1    7800 4150
+P 7800 3650
+F 0 "BT1" H 7908 3696 50  0000 L CNN
+F 1 "Battery" H 7908 3605 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_2479_3xAAA" V 7800 3710 50  0001 C CNN
+F 3 "~" V 7800 3710 50  0001 C CNN
+	1    7800 3650
 	1    0    0    -1  
 $EndComp
 Text GLabel 7800 3350 1    50   Input ~ 0
 +1-1.5V
-Text GLabel 7800 4450 3    50   Input ~ 0
+Text GLabel 7800 3950 3    50   Input ~ 0
 GND
 Wire Wire Line
 	7800 3350 7800 3450
 Wire Wire Line
-	7800 4350 7800 4450
+	7800 3850 7800 3950
 Text GLabel 8450 3400 1    50   Input ~ 0
 +SWV
 Text GLabel 8550 3800 3    50   Input ~ 0
@@ -314,17 +314,4 @@ F 3 "~" H 6950 4750 50  0001 C CNN
 	1    6750 4750
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:Battery BT2
-U 1 1 5FCFDB04
-P 7800 3650
-F 0 "BT2" H 7908 3696 50  0000 L CNN
-F 1 "Battery" H 7908 3605 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_2466_1xAAA" V 7800 3710 50  0001 C CNN
-F 3 "~" V 7800 3710 50  0001 C CNN
-	1    7800 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7800 3950 7800 3850
 $EndSCHEMATC

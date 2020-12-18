@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -30,5 +30,11 @@ S 7350 1300 1600 550
 U 5FBEB36A
 F0 "display" 50
 F1 "tree_display.sch" 50
+$EndSheet
+$Sheet
+S 1150 2250 2550 550 
+U 5FDBD20E
+F0 "base_usb" 50
+F1 "tree_base_usb.sch" 50
 $EndSheet
 $EndSCHEMATC
